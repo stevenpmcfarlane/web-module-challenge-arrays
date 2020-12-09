@@ -45,8 +45,8 @@ Use the copy function below to do the following:
     2. Return a copy of the received array  
 */
 
-function copy(/*your code here*/){
-    /*your code here*/
+function copy([]){
+    return copy(originalFlavors[]);
 }    
 
 
@@ -64,8 +64,15 @@ For Example: is31Flavors(originalFlavors) will return true if your code is worki
 */
 
 
-function is31Flavors(/*your code here*/){
-   /*your code here*/
+function is31Flavors([])
+    is31flavors.length;
+    if (is31flavors.length == 31){
+        return true
+    }
+    if (is31flavors.length !== 31){
+        return false
+    }
+   
 }
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
@@ -81,7 +88,8 @@ Use the addFlavor function below to do the following:
 */
 
 
-function addFlavor(/*your code here*/){
+function addFlavor([]){
+    addFlavor.push('Rainbow Sherbert')
    /*your code here*/
 }
 
@@ -97,8 +105,8 @@ Use the removeLastFlavor function below to do the following:
     For example: running removeLastFlavor(originalFlavors) would return ["Rainbow Sherbert", "Banana Nut Fudge",..."Vanilla"]
 */
 
-function removeLastFlavor(/*your code here*/){
-   /*your code here*/
+function removeLastFlavor([]){
+   removeLastFlavor.pop()
 }
 
 
@@ -115,7 +123,7 @@ Use the getFlavorByIndex function below to do the following:
 */
 
 function getFlavorByIndex(/*your code here*/){
-    /*your code here*/
+    index.getFlavorByIndex()
 }
 
 
@@ -135,7 +143,7 @@ Use the removeFlavorByName function below to do the following:
 */
 
 function removeFlavorByName(/*your code here*/){
-    /*your code here*/
+    removeFlavorByName.slice()
 }
 
 
@@ -162,6 +170,7 @@ Use the filterByWord function below to do the following:
 
 function filterByWord(/*your code here*/){
     /*your code here*/
+    filterByWord.substr()
 }
 
 
